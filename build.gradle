@@ -17,7 +17,7 @@ repositories {
     maven { url = 'https://repo.spongepowered.org/maven' }
 }
 
-version = "1.0.0"
+version = "1.0.1"
 group = "bedbreakbegone" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "BedBreakBegone"
 
