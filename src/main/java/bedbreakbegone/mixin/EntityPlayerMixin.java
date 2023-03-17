@@ -101,8 +101,8 @@ public abstract class EntityPlayerMixin {
 
         for(int yOffset = 0; yOffset <= 1; ++yOffset) {//Fallback to check y+1
         	for(int facingOffset = 0; facingOffset <= 1; ++facingOffset) {//Vanilla facing behavior
-                int xOffset = x - enumfacing.getFrontOffsetX()*facingOffset;
-                int zOffset = z - enumfacing.getFrontOffsetZ()*facingOffset;
+                int xOffset = x - enumfacing.getXOffset()*facingOffset;
+                int zOffset = z - enumfacing.getZOffset()*facingOffset;
                 
                 for(int xIter = xOffset-1; xIter <= xOffset+1; ++xIter) {
                     for(int zIter = zOffset-1; zIter <= zOffset+1; ++zIter) {
