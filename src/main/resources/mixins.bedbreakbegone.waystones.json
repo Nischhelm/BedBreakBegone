@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "bedbreakbegone.mixin",
+  "refmap": "mixins.bedbreakbegone.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "mixins": [
+    "BlockWaystoneMixin"
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}
